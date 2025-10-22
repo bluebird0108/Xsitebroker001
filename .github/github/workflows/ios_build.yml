@@ -39,7 +39,7 @@ jobs:
         uses: apple-actions/upload-testflight-build@v1
         with:
           app-path: build/ipa/XsiteBroker.ipa
-          issuer-id: ${{ 964974c3-189c-4839-aeff-713d9428c5c5 }}
+          issuer-id: ${{ secret.964974c3-189c-4839-aeff-713d9428c5c5 }}
           api-key-id: ${{ UWSRAN8L72 }}
           api-private-key: ${{ -----BEGIN PRIVATE KEY-----
 MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg5Hcy/2KofeTH4m5v
